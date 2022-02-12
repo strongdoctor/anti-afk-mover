@@ -1,0 +1,7 @@
+venv/
+build/
+dist/
+.vscode/
+__pycache__/
+*.spec
+LIB_LICENSES.txt
