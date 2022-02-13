@@ -16,7 +16,7 @@ import threading
 if __name__ == "__main__":
     m = MouseController()
     run = True
-    whitelisted_keys = [Key.tab, Key.alt_l, Key.cmd]
+    whitelisted_keys = [Key.tab, Key.alt_l, Key.cmd, Key.enter]
 
     def on_press(key):
         global run
@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     def loopThread():
         print("Starting anti-afk movements in 3 seconds", flush=True)
-        print("Stop by pressing any key besides Alt, Tab and Win", flush=True)
+        print("Stop by pressing any key besides Alt, Tab, Win and Enter", flush=True)
         time.sleep(3)
         while run == True:
             time.sleep(randrange(2000) / 1000.0)
