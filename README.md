@@ -12,4 +12,4 @@ Press any key besides Alt, Tab, Windows and Enter to stop running application. (
 3. `py anti-afk-mover.py`
 
 ## Running pre-compiled executable
-Just download the `.exe` file under the latest release under Releases
+Just download the `.exe` file under the latest release under Releases and run it
