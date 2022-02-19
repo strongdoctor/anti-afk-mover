@@ -1,0 +1,5 @@
+[DEFAULT]
+StartKey = "s"
+ExitKey = "e"
+MinClickTime = 120
+MaxClickTime = 300
